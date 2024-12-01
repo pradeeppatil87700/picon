@@ -71,7 +71,7 @@
             <version>3.5.2</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>testng-login.xml</suiteXmlFile>
+                <suiteXmlFile>smoke-suite.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
