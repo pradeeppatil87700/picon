@@ -27,6 +27,8 @@ public class HomeTest extends BasePage {
         System.out.println("Test Executed Successfully");
          System.out.println("Test Executed Successfully");
          System.out.println("Test Executed Successfully");
+         System.out.println("Test Executed Successfully");
+         System.out.println("Test Executed Successfully");
     }
 
     @AfterClass
