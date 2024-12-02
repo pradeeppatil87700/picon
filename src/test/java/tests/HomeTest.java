@@ -24,7 +24,7 @@ public class HomeTest extends BasePage {
         String expectedTitle = "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!";
         String actualTitle = driver.getTitle();  // Corrected this line
         Assert.assertEquals(actualTitle, expectedTitle, "Home page title does not match!");
-        System.out.println("Test Executed Successfully done");
+        System.out.println("Test Executed Successfully done done");
     }
 
     @AfterClass
