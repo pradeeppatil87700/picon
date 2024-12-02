@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-02T01:34:41 IST" name="SmokeSuite" finished-at="2024-12-02T01:34:45 IST" duration-ms="4102">
+  <suite started-at="2024-12-02T22:57:40 IST" name="SmokeSuite" finished-at="2024-12-02T22:57:55 IST" duration-ms="15011">
     <groups>
     </groups>
-    <test started-at="2024-12-02T01:34:41 IST" name="SmokeTest" finished-at="2024-12-02T01:34:45 IST" duration-ms="4102">
+    <test started-at="2024-12-02T22:57:40 IST" name="SmokeTest" finished-at="2024-12-02T22:57:55 IST" duration-ms="15011">
       <class name="tests.HomeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomeTest@22fcf7ab]" started-at="2024-12-02T01:34:41 IST" name="setup" finished-at="2024-12-02T01:34:42 IST" duration-ms="1276" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomeTest@6913c1fb]" started-at="2024-12-02T22:57:40 IST" name="setup" finished-at="2024-12-02T22:57:41 IST" duration-ms="1643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePage()[pri:0, instance:tests.HomeTest@22fcf7ab]" started-at="2024-12-02T01:34:42 IST" name="verifyHomePage" finished-at="2024-12-02T01:34:45 IST" duration-ms="2614" status="PASS">
+        <test-method signature="verifyHomePage()[pri:0, instance:tests.HomeTest@6913c1fb]" started-at="2024-12-02T22:57:41 IST" name="verifyHomePage" finished-at="2024-12-02T22:57:43 IST" duration-ms="1973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@22fcf7ab]" started-at="2024-12-02T01:34:45 IST" name="tearDown" finished-at="2024-12-02T01:34:45 IST" duration-ms="168" status="PASS">
+        <test-method signature="verifyNavigationToBags()[pri:0, instance:tests.HomeTest@6913c1fb]" started-at="2024-12-02T22:57:43 IST" name="verifyNavigationToBags" finished-at="2024-12-02T22:57:46 IST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToBags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@6913c1fb]" started-at="2024-12-02T22:57:46 IST" name="tearDown" finished-at="2024-12-02T22:57:47 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HomeTest -->
+      <class name="tests.RedirectionCheck">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RedirectionCheck@13b6aecc]" started-at="2024-12-02T22:57:47 IST" name="setup" finished-at="2024-12-02T22:57:48 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCartTest()[pri:0, instance:tests.RedirectionCheck@13b6aecc]" started-at="2024-12-02T22:57:48 IST" name="clickCartTest" finished-at="2024-12-02T22:57:51 IST" duration-ms="2815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCartTest -->
+        <test-method signature="clickProfileTest()[pri:0, instance:tests.RedirectionCheck@13b6aecc]" started-at="2024-12-02T22:57:51 IST" name="clickProfileTest" finished-at="2024-12-02T22:57:52 IST" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProfileTest -->
+        <test-method signature="clickSignUpTest()[pri:0, instance:tests.RedirectionCheck@13b6aecc]" started-at="2024-12-02T22:57:52 IST" name="clickSignUpTest" finished-at="2024-12-02T22:57:53 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignUpTest -->
+        <test-method signature="downloadMeesho()[pri:0, instance:tests.RedirectionCheck@13b6aecc]" started-at="2024-12-02T22:57:53 IST" name="downloadMeesho" finished-at="2024-12-02T22:57:54 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadMeesho -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RedirectionCheck@13b6aecc]" started-at="2024-12-02T22:57:54 IST" name="tearDown" finished-at="2024-12-02T22:57:55 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RedirectionCheck -->
     </test> <!-- SmokeTest -->
   </suite> <!-- SmokeSuite -->
 </testng-results>
