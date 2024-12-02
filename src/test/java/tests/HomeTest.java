@@ -25,8 +25,8 @@ public class HomeTest extends BasePage {
         String actualTitle = driver.getTitle();  // Corrected this line
         Assert.assertEquals(actualTitle, expectedTitle, "Home page title does not match!");
         System.out.println("Test Executed Successfully");
+        System.out.println("Test Executed Successfully");
     }
-
     @AfterClass
     public void tearDown() {
         super.tearDown();
